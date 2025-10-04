@@ -1,0 +1,662 @@
+Starting tumor growth prediction pipeline for Patient-042
+
+--- Phase 1: Fitting FK parameters using week 49 ---
+Loading data for week 49...
+Found data directory: /scratch/bcsl/jyin15/Tumor/BioPhysModel/parcelled_and_masks/Patient-042/week-049
+Running FK parameter optimization with 15 generations...
+Starting CMA-ES optimization with 15 generations...
+generations  1 / 16
+Running forward model with parameters: Dw=0.9437, rho=0.000100, time=50.1
+Generation 1, Loss: 0.472092, Time: 7.57s
+Running forward model with parameters: Dw=0.9486, rho=0.082016, time=50.1
+Generation 1, Loss: 0.652641, Time: 7.75s
+Running forward model with parameters: Dw=1.1461, rho=0.119472, time=50.0
+Generation 1, Loss: 0.657481, Time: 7.79s
+Running forward model with parameters: Dw=1.0460, rho=0.000100, time=50.0
+Generation 1, Loss: 0.489336, Time: 7.65s
+Running forward model with parameters: Dw=1.1000, rho=0.000100, time=49.9
+Generation 1, Loss: 0.514298, Time: 7.26s
+Running forward model with parameters: Dw=1.0207, rho=0.186890, time=50.1
+Generation 1, Loss: 0.660245, Time: 6.62s
+Running forward model with parameters: Dw=0.9422, rho=0.158490, time=49.9
+Generation 1, Loss: 0.656879, Time: 6.58s
+Running forward model with parameters: Dw=0.9704, rho=0.124703, time=50.1
+Generation 1, Loss: 0.659185, Time: 4.05s
+generations  2 / 16
+Running forward model with parameters: Dw=1.2300, rho=0.000100, time=50.0
+Generation 2, Loss: 0.534201, Time: 7.73s
+Running forward model with parameters: Dw=1.0587, rho=0.113571, time=50.1
+Generation 2, Loss: 0.655473, Time: 7.83s
+Running forward model with parameters: Dw=0.9641, rho=0.193672, time=50.1
+Generation 2, Loss: 0.660850, Time: 7.80s
+Running forward model with parameters: Dw=0.8562, rho=0.000100, time=50.1
+Generation 2, Loss: 0.484817, Time: 7.62s
+Running forward model with parameters: Dw=0.9413, rho=0.000100, time=50.1
+Generation 2, Loss: 0.480566, Time: 7.24s
+Running forward model with parameters: Dw=1.0921, rho=0.105570, time=50.1
+Generation 2, Loss: 0.655431, Time: 6.71s
+Running forward model with parameters: Dw=1.0909, rho=0.000100, time=49.9
+Generation 2, Loss: 0.492308, Time: 6.67s
+Running forward model with parameters: Dw=0.9147, rho=0.000100, time=50.0
+Generation 2, Loss: 0.480356, Time: 4.15s
+Running forward model with parameters: Dw=1.0479, rho=0.049887, time=49.9
+Generation 2, Loss: 0.550517, Time: 7.19s
+Running forward model with parameters: Dw=0.9974, rho=0.117225, time=49.9
+Generation 2, Loss: 0.656674, Time: 3.32s
+generations  3 / 16
+Running forward model with parameters: Dw=0.8993, rho=0.047218, time=50.1
+Generation 3, Loss: 0.609925, Time: 7.60s
+Running forward model with parameters: Dw=0.9934, rho=0.204970, time=50.2
+Generation 3, Loss: 0.661600, Time: 7.77s
+Running forward model with parameters: Dw=1.0429, rho=0.102911, time=50.1
+Generation 3, Loss: 0.657074, Time: 7.83s
+Running forward model with parameters: Dw=0.8878, rho=0.043707, time=50.1
+Generation 3, Loss: 0.645017, Time: 7.61s
+Running forward model with parameters: Dw=0.9419, rho=0.006845, time=50.3
+Generation 3, Loss: 0.458207, Time: 7.25s
+Running forward model with parameters: Dw=0.7878, rho=0.000100, time=50.1
+Generation 3, Loss: 0.521379, Time: 6.63s
+Running forward model with parameters: Dw=0.9007, rho=0.178391, time=50.1
+Generation 3, Loss: 0.658517, Time: 6.56s
+Running forward model with parameters: Dw=0.8989, rho=0.000100, time=50.1
+Generation 3, Loss: 0.475682, Time: 4.09s
+generations  4 / 16
+Running forward model with parameters: Dw=0.8264, rho=0.216078, time=50.0
+Generation 4, Loss: 0.659850, Time: 7.50s
+Running forward model with parameters: Dw=1.0321, rho=0.128326, time=50.1
+Generation 4, Loss: 0.653711, Time: 7.81s
+Running forward model with parameters: Dw=0.9157, rho=0.015089, time=50.0
+Generation 4, Loss: 0.495143, Time: 7.75s
+Running forward model with parameters: Dw=1.1389, rho=0.000100, time=50.1
+Generation 4, Loss: 0.470281, Time: 7.70s
+Running forward model with parameters: Dw=0.9382, rho=0.129852, time=50.0
+Generation 4, Loss: 0.653188, Time: 7.21s
+Running forward model with parameters: Dw=0.8055, rho=0.080399, time=50.1
+Generation 4, Loss: 0.646980, Time: 6.68s
+Running forward model with parameters: Dw=0.9671, rho=0.000100, time=50.1
+Generation 4, Loss: 0.479962, Time: 6.61s
+Running forward model with parameters: Dw=0.8936, rho=0.000100, time=50.1
+Generation 4, Loss: 0.481856, Time: 4.06s
+generations  5 / 16
+Running forward model with parameters: Dw=0.9012, rho=0.000100, time=49.9
+Generation 5, Loss: 0.473477, Time: 7.57s
+Running forward model with parameters: Dw=1.0068, rho=0.000100, time=50.2
+Generation 5, Loss: 0.464418, Time: 7.76s
+Running forward model with parameters: Dw=1.0787, rho=0.000100, time=50.0
+Generation 5, Loss: 0.476132, Time: 7.84s
+Running forward model with parameters: Dw=1.1187, rho=0.225000, time=50.1
+Generation 5, Loss: 0.661625, Time: 7.68s
+Running forward model with parameters: Dw=0.9182, rho=0.225000, time=49.8
+Generation 5, Loss: 0.662735, Time: 7.24s
+Running forward model with parameters: Dw=1.0357, rho=0.003046, time=49.9
+Generation 5, Loss: 0.476899, Time: 6.68s
+Running forward model with parameters: Dw=1.1403, rho=0.213154, time=50.0
+Generation 5, Loss: 0.662623, Time: 6.63s
+Running forward model with parameters: Dw=0.8892, rho=0.000100, time=49.9
+Generation 5, Loss: 0.467949, Time: 4.11s
+generations  6 / 16
+Running forward model with parameters: Dw=0.9114, rho=0.000100, time=50.0
+Generation 6, Loss: 0.467668, Time: 7.55s
+Running forward model with parameters: Dw=1.1265, rho=0.053794, time=50.1
+Generation 6, Loss: 0.549209, Time: 7.92s
+Running forward model with parameters: Dw=0.9574, rho=0.000100, time=50.3
+Generation 6, Loss: 0.474633, Time: 7.79s
+Running forward model with parameters: Dw=0.8308, rho=0.000100, time=50.3
+Generation 6, Loss: 0.483737, Time: 7.56s
+Running forward model with parameters: Dw=0.9641, rho=0.000100, time=50.0
+Generation 6, Loss: 0.476418, Time: 7.20s
+Running forward model with parameters: Dw=1.1216, rho=0.173106, time=50.0
+Generation 6, Loss: 0.658559, Time: 6.72s
+Running forward model with parameters: Dw=1.2422, rho=0.126704, time=49.9
+Generation 6, Loss: 0.658659, Time: 6.76s
+Running forward model with parameters: Dw=0.9741, rho=0.056147, time=50.0
+Generation 6, Loss: 0.565256, Time: 4.01s
+Running forward model with parameters: Dw=1.0823, rho=0.000100, time=49.8
+Generation 6, Loss: 0.466374, Time: 7.19s
+Running forward model with parameters: Dw=0.9240, rho=0.000100, time=50.1
+Generation 6, Loss: 0.467397, Time: 3.32s
+generations  7 / 16
+Running forward model with parameters: Dw=1.1860, rho=0.000100, time=50.0
+Generation 7, Loss: 0.526942, Time: 7.68s
+Running forward model with parameters: Dw=1.1464, rho=0.093378, time=50.0
+Generation 7, Loss: 0.652021, Time: 7.82s
+Running forward model with parameters: Dw=1.1130, rho=0.048865, time=49.9
+Generation 7, Loss: 0.589175, Time: 7.86s
+Running forward model with parameters: Dw=0.8776, rho=0.199601, time=49.8
+Generation 7, Loss: 0.659200, Time: 7.61s
+Running forward model with parameters: Dw=1.0406, rho=0.225000, time=50.0
+Generation 7, Loss: 0.661649, Time: 7.28s
+Running forward model with parameters: Dw=0.6975, rho=0.109027, time=50.1
+Generation 7, Loss: 0.653776, Time: 6.62s
+Running forward model with parameters: Dw=1.0761, rho=0.133911, time=49.7
+Generation 7, Loss: 0.658113, Time: 6.70s
+Running forward model with parameters: Dw=0.9703, rho=0.192299, time=50.0
+Generation 7, Loss: 0.659220, Time: 4.13s
+Running forward model with parameters: Dw=0.9308, rho=0.000100, time=50.2
+Generation 7, Loss: 0.466705, Time: 7.14s
+Running forward model with parameters: Dw=1.0053, rho=0.108160, time=50.1
+Generation 7, Loss: 0.648772, Time: 3.33s
+generations  8 / 16
+Running forward model with parameters: Dw=1.3924, rho=0.225000, time=50.1
+Generation 8, Loss: 0.661965, Time: 7.76s
+Running forward model with parameters: Dw=0.7068, rho=0.000100, time=50.0
+Generation 8, Loss: 0.477782, Time: 7.66s
+Running forward model with parameters: Dw=0.7877, rho=0.000100, time=50.2
+Generation 8, Loss: 0.532796, Time: 7.71s
+Running forward model with parameters: Dw=0.9350, rho=0.225000, time=49.8
+Generation 8, Loss: 0.660769, Time: 7.58s
+Running forward model with parameters: Dw=1.2340, rho=0.181391, time=50.0
+Generation 8, Loss: 0.660351, Time: 7.26s
+Running forward model with parameters: Dw=1.0216, rho=0.000100, time=50.0
+Generation 8, Loss: 0.471819, Time: 6.65s
+Running forward model with parameters: Dw=1.2129, rho=0.000100, time=50.0
+Generation 8, Loss: 0.493362, Time: 6.72s
+Running forward model with parameters: Dw=1.0727, rho=0.000100, time=50.0
+Generation 8, Loss: 0.534822, Time: 4.09s
+generations  9 / 16
+Running forward model with parameters: Dw=0.8020, rho=0.000100, time=50.2
+Generation 9, Loss: 0.483297, Time: 7.50s
+Running forward model with parameters: Dw=1.0457, rho=0.018520, time=50.4
+Generation 9, Loss: 0.460493, Time: 7.78s
+Running forward model with parameters: Dw=1.4912, rho=0.000100, time=50.3
+Generation 9, Loss: 0.538752, Time: 7.99s
+Running forward model with parameters: Dw=1.2422, rho=0.000100, time=50.2
+Generation 9, Loss: 0.472342, Time: 7.68s
+Running forward model with parameters: Dw=0.7893, rho=0.000100, time=50.2
+Generation 9, Loss: 0.469913, Time: 7.20s
+Running forward model with parameters: Dw=1.2851, rho=0.000100, time=50.0
+Generation 9, Loss: 0.561456, Time: 6.76s
+Running forward model with parameters: Dw=0.8203, rho=0.000100, time=49.8
+Generation 9, Loss: 0.549616, Time: 6.54s
+Running forward model with parameters: Dw=0.7767, rho=0.000100, time=49.9
+Generation 9, Loss: 0.482886, Time: 4.13s
+Running forward model with parameters: Dw=0.9257, rho=0.225000, time=49.7
+Generation 9, Loss: 0.663111, Time: 7.14s
+Running forward model with parameters: Dw=1.1525, rho=0.006584, time=50.1
+Generation 9, Loss: 0.467950, Time: 3.44s
+generations  10 / 16
+Running forward model with parameters: Dw=0.8489, rho=0.084358, time=50.3
+Generation 10, Loss: 0.635329, Time: 7.52s
+Running forward model with parameters: Dw=1.0259, rho=0.064087, time=50.2
+Generation 10, Loss: 0.639286, Time: 7.84s
+Running forward model with parameters: Dw=1.2144, rho=0.141362, time=50.6
+Generation 10, Loss: 0.656326, Time: 7.88s
+Running forward model with parameters: Dw=0.8557, rho=0.000100, time=50.9
+Generation 10, Loss: 0.467627, Time: 7.59s
+Running forward model with parameters: Dw=0.9626, rho=0.079675, time=50.9
+Generation 10, Loss: 0.631459, Time: 7.21s
+Running forward model with parameters: Dw=1.3913, rho=0.134902, time=50.7
+Generation 10, Loss: 0.656176, Time: 6.73s
+Running forward model with parameters: Dw=1.3496, rho=0.000100, time=50.0
+Generation 10, Loss: 0.480976, Time: 6.81s
+Running forward model with parameters: Dw=1.4144, rho=0.225000, time=50.1
+Generation 10, Loss: 0.663356, Time: 4.09s
+Running forward model with parameters: Dw=1.4897, rho=0.225000, time=50.1
+Generation 10, Loss: 0.663971, Time: 7.35s
+Running forward model with parameters: Dw=1.2973, rho=0.000100, time=50.3
+Generation 10, Loss: 0.615699, Time: 3.32s
+generations  11 / 16
+Running forward model with parameters: Dw=0.6254, rho=0.000100, time=50.4
+Generation 11, Loss: 0.495149, Time: 17.13s
+Running forward model with parameters: Dw=1.3050, rho=0.225000, time=50.8
+Generation 11, Loss: 0.663864, Time: 19.82s
+Running forward model with parameters: Dw=1.0662, rho=0.134435, time=50.4
+Generation 11, Loss: 0.657336, Time: 19.07s
+Running forward model with parameters: Dw=0.8758, rho=0.225000, time=50.6
+Generation 11, Loss: 0.662145, Time: 17.67s
+Running forward model with parameters: Dw=1.1831, rho=0.053111, time=50.9
+Generation 11, Loss: 0.568814, Time: 19.10s
+Running forward model with parameters: Dw=1.5944, rho=0.025910, time=50.9
+Generation 11, Loss: 0.511000, Time: 20.80s
+Running forward model with parameters: Dw=0.3014, rho=0.000100, time=50.9
+Generation 11, Loss: 0.567090, Time: 14.76s
+Running forward model with parameters: Dw=0.5826, rho=0.000100, time=50.1
+Generation 11, Loss: 0.558137, Time: 8.35s
+generations  12 / 16
+Running forward model with parameters: Dw=0.8543, rho=0.025857, time=50.9
+Generation 12, Loss: 0.550370, Time: 17.70s
+Running forward model with parameters: Dw=1.2772, rho=0.119638, time=50.0
+Generation 12, Loss: 0.660697, Time: 19.92s
+Running forward model with parameters: Dw=1.3039, rho=0.000100, time=51.2
+Generation 12, Loss: 0.496002, Time: 20.19s
+Running forward model with parameters: Dw=1.2356, rho=0.000100, time=51.0
+Generation 12, Loss: 0.488525, Time: 19.79s
+Running forward model with parameters: Dw=1.1677, rho=0.225000, time=50.1
+Generation 12, Loss: 0.662127, Time: 19.14s
+Running forward model with parameters: Dw=1.1878, rho=0.000100, time=51.6
+Generation 12, Loss: 0.488476, Time: 18.66s
+Running forward model with parameters: Dw=0.0010, rho=0.000100, time=50.3
+Generation 12, Loss: 0.626809, Time: 13.61s
+Running forward model with parameters: Dw=0.7214, rho=0.116894, time=50.7
+Generation 12, Loss: 0.651943, Time: 9.27s
+generations  13 / 16
+Running forward model with parameters: Dw=1.2956, rho=0.225000, time=50.8
+Generation 13, Loss: 0.663180, Time: 20.77s
+Running forward model with parameters: Dw=1.5016, rho=0.000100, time=51.5
+Generation 13, Loss: 0.512144, Time: 22.03s
+Running forward model with parameters: Dw=2.0206, rho=0.225000, time=51.4
+Generation 13, Loss: 0.664526, Time: 23.90s
+Running forward model with parameters: Dw=1.5693, rho=0.225000, time=51.7
+Generation 13, Loss: 0.664232, Time: 22.16s
+Running forward model with parameters: Dw=1.4287, rho=0.000100, time=51.3
+Generation 13, Loss: 0.505852, Time: 21.38s
+Running forward model with parameters: Dw=2.2482, rho=0.225000, time=50.7
+Generation 13, Loss: 0.663663, Time: 22.44s
+Running forward model with parameters: Dw=1.3665, rho=0.000100, time=51.3
+Generation 13, Loss: 0.610048, Time: 20.85s
+Running forward model with parameters: Dw=0.3759, rho=0.000100, time=51.6
+Generation 13, Loss: 0.537852, Time: 6.10s
+Running forward model with parameters: Dw=0.2899, rho=0.000100, time=52.7
+Generation 13, Loss: 0.552424, Time: 13.92s
+Running forward model with parameters: Dw=2.1383, rho=0.000100, time=50.7
+Generation 13, Loss: 0.532661, Time: 13.91s
+generations  14 / 16
+Running forward model with parameters: Dw=1.4319, rho=0.225000, time=50.7
+Generation 14, Loss: 0.664012, Time: 20.25s
+Running forward model with parameters: Dw=1.1263, rho=0.000100, time=51.3
+Generation 14, Loss: 0.497703, Time: 19.83s
+Running forward model with parameters: Dw=1.5494, rho=0.225000, time=51.2
+Generation 14, Loss: 0.664168, Time: 21.67s
+Running forward model with parameters: Dw=1.0665, rho=0.149033, time=50.6
+Generation 14, Loss: 0.658010, Time: 19.37s
+Running forward model with parameters: Dw=1.0052, rho=0.000100, time=50.6
+Generation 14, Loss: 0.627432, Time: 18.69s
+Running forward model with parameters: Dw=1.9648, rho=0.112964, time=51.5
+Generation 14, Loss: 0.655704, Time: 22.23s
+Running forward model with parameters: Dw=0.6137, rho=0.009824, time=52.5
+Generation 14, Loss: 0.624418, Time: 16.91s
+Running forward model with parameters: Dw=1.8517, rho=0.110898, time=52.9
+Generation 14, Loss: 0.655726, Time: 9.09s
+generations  15 / 16
+Running forward model with parameters: Dw=0.7055, rho=0.000100, time=52.6
+Generation 15, Loss: 0.589949, Time: 17.93s
+Running forward model with parameters: Dw=1.5935, rho=0.225000, time=51.8
+Generation 15, Loss: 0.664248, Time: 21.88s
+Running forward model with parameters: Dw=2.2029, rho=0.000100, time=51.6
+Generation 15, Loss: 0.559952, Time: 24.31s
+Running forward model with parameters: Dw=1.4332, rho=0.000100, time=51.7
+Generation 15, Loss: 0.496989, Time: 21.19s
+Running forward model with parameters: Dw=1.7019, rho=0.225000, time=52.9
+Generation 15, Loss: 0.663413, Time: 22.82s
+Running forward model with parameters: Dw=2.7431, rho=0.000100, time=53.2
+Generation 15, Loss: 0.564801, Time: 25.66s
+Running forward model with parameters: Dw=1.0350, rho=0.103254, time=51.6
+Generation 15, Loss: 0.658978, Time: 19.40s
+Running forward model with parameters: Dw=0.3846, rho=0.000100, time=50.7
+Generation 15, Loss: 0.537566, Time: 6.66s
+Optimization completed. Best loss: 0.458207
+Best parameters: [np.float64(0.906679), np.float64(0.527997), np.float64(0.31339), np.float64(0.941913), np.float64(0.006845), np.float64(50.25916), np.float64(0.85), np.float64(0.492479)]
+Running forward model with parameters: Dw=0.9419, rho=0.006845, time=50.3
+Warning: Could not convert parameters to float: [[ 0.96461845 -0.00907756  0.01845855 -0.00736264  0.01463915  0.00515149
+  -0.01085164 -0.0121785 ]
+ [-0.00907756  0.9822868  -0.00429227  0.01331676  0.01838432 -0.02046183
+  -0.05026442 -0.04231157]
+ [ 0.01845855 -0.00429227  0.9847718  -0.01331595  0.03026008  0.00762513
+  -0.02094259 -0.03042994]
+ [-0.00736264  0.01331676 -0.01331595  0.95962963 -0.00317172 -0.01045569
+  -0.01196456 -0.00821201]
+ [ 0.01463915  0.01838432  0.03026008 -0.00317172  0.99429264 -0.0098111
+  -0.06796072 -0.06019901]
+ [ 0.00515149 -0.02046183  0.00762513 -0.01045569 -0.0098111   0.96600925
+   0.0396688   0.02126405]
+ [-0.01085164 -0.05026442 -0.02094259 -0.01196456 -0.06796072  0.0396688
+   1.09666304  0.09733224]
+ [-0.0121785  -0.04231157 -0.03042994 -0.00821201 -0.06019901  0.02126405
+   0.09733224  1.05250178]]
+Warning: Could not convert parameters to float: [[ 0.9219006  -0.01012044  0.00541482  0.00318851  0.02020986 -0.00207508
+  -0.02252141 -0.01680682]
+ [-0.01012044  0.95663577  0.01369637  0.00233139 -0.00412421 -0.01563172
+  -0.02837788 -0.03061352]
+ [ 0.00541482  0.01369637  0.9734698  -0.04074712  0.01117565  0.02278117
+   0.00611513 -0.01521682]
+ [ 0.00318851  0.00233139 -0.04074712  0.95790379  0.03349287 -0.03853132
+  -0.05150443 -0.05110188]
+ [ 0.02020986 -0.00412421  0.01117565  0.03349287  0.99645237 -0.03353115
+  -0.11464679 -0.10655343]
+ [-0.00207508 -0.01563172  0.02278117 -0.03853132 -0.03353115  0.93717721
+   0.06233505  0.05163834]
+ [-0.02252141 -0.02837788  0.00611513 -0.05150443 -0.11464679  0.06233505
+   1.09802071  0.13613829]
+ [-0.01680682 -0.03061352 -0.01521682 -0.05110188 -0.10655343  0.05163834
+   0.13613829  1.06651389]]
+Warning: Could not convert parameters to float: [[ 0.96426865  0.00231157  0.02354589 -0.01165249 -0.00666789  0.0683613
+   0.07921165  0.07368589]
+ [ 0.00231157  0.93114928 -0.00393743 -0.00330248 -0.00833161  0.02835025
+  -0.03631264 -0.02033133]
+ [ 0.02354589 -0.00393743  0.95709024 -0.04716343 -0.00550551  0.00785523
+   0.06517005  0.02442925]
+ [-0.01165249 -0.00330248 -0.04716343  0.92211612  0.04743776 -0.05571422
+  -0.07595841 -0.07820393]
+ [-0.00666789 -0.00833161 -0.00550551  0.04743776  0.96758604 -0.05582803
+  -0.15714305 -0.14765042]
+ [ 0.0683613   0.02835025  0.00785523 -0.05571422 -0.05582803  0.99825664
+   0.10437073  0.12082285]
+ [ 0.07921165 -0.03631264  0.06517005 -0.07595841 -0.15714305  0.10437073
+   1.2122944   0.25694491]
+ [ 0.07368589 -0.02033133  0.02442925 -0.07820393 -0.14765042  0.12082285
+   0.25694491  1.14996582]]
+Warning: Could not convert parameters to float: [[ 9.86264169e-01 -5.33795529e-04  7.75300086e-02 -1.18321547e-02
+  -6.27107062e-02  4.97690173e-02  1.18894250e-01  1.43678353e-01]
+ [-5.33795529e-04  9.05618395e-01 -7.01257291e-05 -5.21343864e-03
+  -1.27120598e-02  3.38288348e-02 -3.50996763e-02 -2.43309945e-02]
+ [ 7.75300086e-02 -7.01257291e-05  9.96434784e-01 -4.39579415e-02
+  -6.50596978e-02 -2.07267926e-02  8.54065079e-02  8.66552411e-02]
+ [-1.18321547e-02 -5.21343864e-03 -4.39579415e-02  9.22655606e-01
+   3.63279061e-02 -6.05523775e-02 -7.56325302e-02 -9.51430351e-02]
+ [-6.27107062e-02 -1.27120598e-02 -6.50596978e-02  3.63279061e-02
+   9.94565745e-01 -3.50875260e-02 -1.87831593e-01 -2.02528128e-01]
+ [ 4.97690173e-02  3.38288348e-02 -2.07267926e-02 -6.05523775e-02
+  -3.50875260e-02  9.97042027e-01  1.15959999e-01  1.05985418e-01]
+ [ 1.18894250e-01 -3.50996763e-02  8.54065079e-02 -7.56325302e-02
+  -1.87831593e-01  1.15959999e-01  1.22344882e+00  3.06389884e-01]
+ [ 1.43678353e-01 -2.43309945e-02  8.66552411e-02 -9.51430351e-02
+  -2.02528128e-01  1.05985418e-01  3.06389884e-01  1.20876510e+00]]
+Warning: Could not convert parameters to float: [[ 0.9844841   0.00147993  0.10500762 -0.0251394  -0.08464025  0.03581484
+   0.1322972   0.13385377]
+ [ 0.00147993  0.87733963  0.00256981 -0.003757   -0.0177199   0.03770486
+  -0.03662911 -0.02959115]
+ [ 0.10500762  0.00256981  0.98953221 -0.05339848 -0.08790552 -0.02530267
+   0.09599678  0.07877708]
+ [-0.0251394  -0.003757   -0.05339848  0.89528005  0.05168962 -0.0565935
+  -0.08887623 -0.10889703]
+ [-0.08464025 -0.0177199  -0.08790552  0.05168962  1.02089012 -0.04805333
+  -0.22086897 -0.25301553]
+ [ 0.03581484  0.03770486 -0.02530267 -0.0565935  -0.04805333  0.99479115
+   0.12780091  0.14554726]
+ [ 0.1322972  -0.03662911  0.09599678 -0.08887623 -0.22086897  0.12780091
+   1.22326309  0.36480515]
+ [ 0.13385377 -0.02959115  0.07877708 -0.10889703 -0.25301553  0.14554726
+   0.36480515  1.31976593]]
+Warning: Could not convert parameters to float: [[ 0.97210352  0.00474614  0.10704777 -0.02733889 -0.11860411  0.02626244
+   0.13385127  0.15096508]
+ [ 0.00474614  0.86834658  0.00215183 -0.00954666 -0.0234597   0.03626048
+  -0.02631428 -0.0230274 ]
+ [ 0.10704777  0.00215183  0.95567385 -0.05350235 -0.09283422 -0.01923232
+   0.09328388  0.08021449]
+ [-0.02733889 -0.00954666 -0.05350235  0.87053602  0.04229917 -0.07156123
+  -0.08874684 -0.10498694]
+ [-0.11860411 -0.0234597  -0.09283422  0.04229917  1.05910315 -0.00730694
+  -0.22041715 -0.27994838]
+ [ 0.02626244  0.03626048 -0.01923232 -0.07156123 -0.00730694  1.00810408
+   0.12149104  0.12587022]
+ [ 0.13385127 -0.02631428  0.09328388 -0.08874684 -0.22041715  0.12149104
+   1.1888436   0.36255491]
+ [ 0.15096508 -0.0230274   0.08021449 -0.10498694 -0.27994838  0.12587022
+   0.36255491  1.29368006]]
+Warning: Could not convert parameters to float: [[ 9.59321360e-01 -5.96485159e-03  1.01782059e-01 -2.71958477e-02
+  -1.22848106e-01  4.28938148e-02  1.54242851e-01  1.61640624e-01]
+ [-5.96485159e-03  8.65773253e-01  1.29896574e-02  1.01352527e-03
+  -3.09413620e-02  3.27372062e-02 -2.48264237e-02 -4.46479232e-02]
+ [ 1.01782059e-01  1.29896574e-02  9.32712861e-01 -4.35612032e-02
+  -8.91542167e-02 -2.50709104e-02  8.99888072e-02  6.13515141e-02]
+ [-2.71958477e-02  1.01352527e-03 -4.35612032e-02  8.49101182e-01
+   4.04470365e-02 -7.75189802e-02 -9.52130430e-02 -1.20298374e-01]
+ [-1.22848106e-01 -3.09413620e-02 -8.91542167e-02  4.04470365e-02
+   1.03057849e+00 -2.08619955e-02 -2.29034993e-01 -2.74631248e-01]
+ [ 4.28938148e-02  3.27372062e-02 -2.50709104e-02 -7.75189802e-02
+  -2.08619955e-02  9.99217381e-01  1.58648496e-01  1.47265897e-01]
+ [ 1.54242851e-01 -2.48264237e-02  8.99888072e-02 -9.52130430e-02
+  -2.29034993e-01  1.58648496e-01  1.21396011e+00  3.80811283e-01]
+ [ 1.61640624e-01 -4.46479232e-02  6.13515141e-02 -1.20298374e-01
+  -2.74631248e-01  1.47265897e-01  3.80811283e-01  1.28648838e+00]]
+Warning: Could not convert parameters to float: [[ 0.93227396 -0.01211974  0.10356446 -0.03533249 -0.13866486  0.03893828
+   0.15278441  0.17477913]
+ [-0.01211974  0.85132075  0.01220984 -0.00603425 -0.02407679  0.03444162
+  -0.0256313  -0.03799664]
+ [ 0.10356446  0.01220984  0.92227376 -0.04544171 -0.08667484 -0.01703103
+   0.09400597  0.04647083]
+ [-0.03533249 -0.00603425 -0.04544171  0.84092545  0.06972883 -0.0712338
+  -0.09504351 -0.16173679]
+ [-0.13866486 -0.02407679 -0.08667484  0.06972883  1.05024528 -0.01040229
+  -0.22396204 -0.33310315]
+ [ 0.03893828  0.03444162 -0.01703103 -0.0712338  -0.01040229  0.96575319
+   0.15352707  0.1274683 ]
+ [ 0.15278441 -0.0256313   0.09400597 -0.09504351 -0.22396204  0.15352707
+   1.17387759  0.37005484]
+ [ 0.17477913 -0.03799664  0.04647083 -0.16173679 -0.33310315  0.1274683
+   0.37005484  1.34489638]]
+Warning: Could not convert parameters to float: [[ 9.25105637e-01  1.98855700e-02  1.02939252e-01 -1.50885586e-02
+  -1.32320894e-01  8.04944288e-02  2.06756605e-01  1.96007173e-01]
+ [ 1.98855700e-02  8.52211998e-01  4.00925696e-03  1.02598684e-03
+  -2.48874195e-02  7.65527024e-02  3.40651274e-02 -1.73652612e-03]
+ [ 1.02939252e-01  4.00925696e-03  8.90083111e-01 -3.28472048e-02
+  -8.66105263e-02 -5.16825043e-03  1.05467452e-01  5.04546865e-02]
+ [-1.50885586e-02  1.02598684e-03 -3.28472048e-02  8.13959084e-01
+   6.49443477e-02 -4.73569591e-02 -6.08534047e-02 -1.43598008e-01]
+ [-1.32320894e-01 -2.48874195e-02 -8.66105263e-02  6.49443477e-02
+   1.00076854e+00 -1.86448878e-02 -2.24080580e-01 -3.24369056e-01]
+ [ 8.04944288e-02  7.65527024e-02 -5.16825043e-03 -4.73569591e-02
+  -1.86448878e-02  9.86606676e-01  2.40814703e-01  1.74237508e-01]
+ [ 2.06756605e-01  3.40651274e-02  1.05467452e-01 -6.08534047e-02
+  -2.24080580e-01  2.40814703e-01  1.24384580e+00  4.22992915e-01]
+ [ 1.96007173e-01 -1.73652612e-03  5.04546865e-02 -1.43598008e-01
+  -3.24369056e-01  1.74237508e-01  4.22992915e-01  1.32077595e+00]]
+Warning: Could not convert parameters to float: [[ 0.93099703 -0.00949812  0.14210656  0.01113434 -0.1332359   0.04837312
+   0.21052463  0.19587374]
+ [-0.00949812  0.88456074 -0.03519721 -0.01821566 -0.03202777  0.13394816
+   0.07130294  0.0438971 ]
+ [ 0.14210656 -0.03519721  0.91603012 -0.00660597 -0.07789541 -0.05896618
+   0.08653267  0.05275342]
+ [ 0.01113434 -0.01821566 -0.00660597  0.80185148  0.05053103 -0.06504569
+  -0.04377844 -0.1338954 ]
+ [-0.1332359  -0.03202777 -0.07789541  0.05053103  0.99448971 -0.03209901
+  -0.2670272  -0.33974814]
+ [ 0.04837312  0.13394816 -0.05896618 -0.06504569 -0.03209901  1.03853132
+   0.29835099  0.2126406 ]
+ [ 0.21052463  0.07130294  0.08653267 -0.04377844 -0.2670272   0.29835099
+   1.31896995  0.49264679]
+ [ 0.19587374  0.0438971   0.05275342 -0.1338954  -0.33974814  0.2126406
+   0.49264679  1.37586684]]
+Warning: Could not convert parameters to float: [[ 0.9304742  -0.0178648   0.15368877  0.01925217 -0.11662162  0.04095376
+   0.20518427  0.19621933]
+ [-0.0178648   0.86981012 -0.04648559 -0.01675672 -0.03054773  0.13121444
+   0.06503586  0.03497122]
+ [ 0.15368877 -0.04648559  0.91495047 -0.02718398 -0.0706821  -0.08042168
+   0.08105145  0.05309608]
+ [ 0.01925217 -0.01675672 -0.02718398  0.80705146  0.05442257 -0.03572301
+  -0.03078871 -0.11851949]
+ [-0.11662162 -0.03054773 -0.0706821   0.05442257  0.96718735 -0.03816618
+  -0.26384902 -0.32839033]
+ [ 0.04095376  0.13121444 -0.08042168 -0.03572301 -0.03816618  1.03820507
+   0.31084931  0.21872903]
+ [ 0.20518427  0.06503586  0.08105145 -0.03078871 -0.26384902  0.31084931
+   1.29228359  0.48920545]
+ [ 0.19621933  0.03497122  0.05309608 -0.11851949 -0.32839033  0.21872903
+   0.48920545  1.33526336]]
+Warning: Could not convert parameters to float: [[ 9.27798808e-01  8.70577010e-05  1.76964519e-01  2.87360681e-02
+  -1.47041967e-01  7.55244890e-02  2.04277998e-01  2.38343816e-01]
+ [ 8.70577010e-05  8.72428103e-01 -2.03504101e-02 -1.66600981e-02
+  -3.73700322e-02  1.53722327e-01  5.29787118e-02  5.06821870e-02]
+ [ 1.76964519e-01 -2.03504101e-02  9.15016649e-01 -2.20718703e-02
+  -1.00930815e-01 -3.59990370e-02  8.07749270e-02  9.69747541e-02]
+ [ 2.87360681e-02 -1.66600981e-02 -2.20718703e-02  7.82198402e-01
+   4.32090540e-02 -2.82297937e-02 -2.60951432e-02 -9.88857564e-02]
+ [-1.47041967e-01 -3.73700322e-02 -1.00930815e-01  4.32090540e-02
+   9.87851965e-01 -8.16326009e-02 -2.77131413e-01 -3.80326091e-01]
+ [ 7.55244890e-02  1.53722327e-01 -3.59990370e-02 -2.82297937e-02
+  -8.16326009e-02  1.05106541e+00  3.10299219e-01  2.70491717e-01]
+ [ 2.04277998e-01  5.29787118e-02  8.07749270e-02 -2.60951432e-02
+  -2.77131413e-01  3.10299219e-01  1.26690008e+00  4.90721515e-01]
+ [ 2.38343816e-01  5.06821870e-02  9.69747541e-02 -9.88857564e-02
+  -3.80326091e-01  2.70491717e-01  4.90721515e-01  1.37028060e+00]]
+Warning: Could not convert parameters to float: [[ 0.90696382 -0.00930523  0.1640892   0.03630789 -0.14845882  0.06938345
+   0.19529719  0.23620326]
+ [-0.00930523  0.85765032 -0.01380793 -0.01652032 -0.04042915  0.15553161
+   0.06178824  0.0563097 ]
+ [ 0.1640892  -0.01380793  0.88331701 -0.02215099 -0.09444191 -0.03360654
+   0.0791151   0.09217801]
+ [ 0.03630789 -0.01652032 -0.02215099  0.77908285  0.03988627 -0.03814884
+  -0.02992491 -0.08348116]
+ [-0.14845882 -0.04042915 -0.09444191  0.03988627  0.97365948 -0.08185328
+  -0.28280051 -0.38661616]
+ [ 0.06938345  0.15553161 -0.03360654 -0.03814884 -0.08185328  1.0237018
+   0.30859882  0.26149481]
+ [ 0.19529719  0.06178824  0.0791151  -0.02992491 -0.28280051  0.30859882
+   1.23714481  0.48702796]
+ [ 0.23620326  0.0563097   0.09217801 -0.08348116 -0.38661616  0.26149481
+   0.48702796  1.34146079]]
+Warning: Could not convert parameters to float: [[ 0.89887287 -0.02428608  0.17354861  0.03645659 -0.17589474  0.05874242
+   0.19032895  0.24017807]
+ [-0.02428608  0.84094793 -0.01876547 -0.00594684 -0.01088099  0.1455444
+   0.0634023   0.04000678]
+ [ 0.17354861 -0.01876547  0.86451925 -0.01616296 -0.10915782 -0.0447318
+   0.07499329  0.09376378]
+ [ 0.03645659 -0.00594684 -0.01616296  0.76721044  0.05320128 -0.04817179
+  -0.01901444 -0.09082451]
+ [-0.17589474 -0.01088099 -0.10915782  0.05320128  0.99589075 -0.07407016
+  -0.26364697 -0.39838485]
+ [ 0.05874242  0.1455444  -0.0447318  -0.04817179 -0.07407016  1.0197707
+   0.29658782  0.2585199 ]
+ [ 0.19032895  0.0634023   0.07499329 -0.01901444 -0.26364697  0.29658782
+   1.20090868  0.46406541]
+ [ 0.24017807  0.04000678  0.09376378 -0.09082451 -0.39838485  0.2585199
+   0.46406541  1.30447721]]
+Warning: Could not convert parameters to float: [[ 0.90664543 -0.03235754  0.13174363  0.04564167 -0.18811048  0.04837923
+   0.19300827  0.2392041 ]
+ [-0.03235754  0.83832304  0.00189982  0.01792785 -0.00355007  0.16158305
+   0.05921872  0.03019201]
+ [ 0.13174363  0.00189982  0.9001899  -0.02049629 -0.08106065 -0.030021
+   0.06319267  0.07561457]
+ [ 0.04564167  0.01792785 -0.02049629  0.76878898  0.04408078 -0.02677636
+  -0.01313596 -0.08201829]
+ [-0.18811048 -0.00355007 -0.08106065  0.04408078  0.9757293  -0.07317249
+  -0.26111282 -0.40295379]
+ [ 0.04837923  0.16158305 -0.030021   -0.02677636 -0.07317249  1.00382495
+   0.28577124  0.25433294]
+ [ 0.19300827  0.05921872  0.06319267 -0.01313596 -0.26111282  0.28577124
+   1.15967424  0.45604397]
+ [ 0.2392041   0.03019201  0.07561457 -0.08201829 -0.40295379  0.25433294
+   0.45604397  1.28974765]]
+
+FK parameter fitting completed. Results saved to /scratch/bcsl/jyin15/Tumor/BioPhysModel/time_scale_experiment/Patient-042_weeks_49_60/fk
+Optimized parameters: Dw=0.9419130334561572, rho=0.006844634895402674, model_time=50.259159921275256
+
+--- Phase 2: Fitting time scale using week 60 ---
+Loading data for week 60...
+Found data directory: /scratch/bcsl/jyin15/Tumor/BioPhysModel/parcelled_and_masks/Patient-042/week-060
+Running time scale optimization with 15 generations...
+generations  1 / 16
+Running with time scale: 0.1125, model time: 51.5
+Generation 1, Scale: 0.1125, Loss: 0.772188, Time: 9.50s
+Running with time scale: 1.1009, model time: 62.4
+Generation 1, Scale: 1.1009, Loss: 0.782296, Time: 9.93s
+Running with time scale: 0.6690, model time: 57.6
+Generation 1, Scale: 0.6690, Loss: 0.778243, Time: 9.43s
+generations  2 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 2, Scale: 0.1000, Loss: 0.771839, Time: 9.35s
+Running with time scale: 0.1000, model time: 51.4
+Generation 2, Scale: 0.1000, Loss: 0.771839, Time: 9.32s
+Running with time scale: 0.1000, model time: 51.4
+Generation 2, Scale: 0.1000, Loss: 0.771839, Time: 9.10s
+generations  3 / 16
+Running with time scale: 0.2843, model time: 53.4
+Generation 3, Scale: 0.2843, Loss: 0.773723, Time: 9.47s
+Running with time scale: 0.1000, model time: 51.4
+Generation 3, Scale: 0.1000, Loss: 0.771839, Time: 9.37s
+Running with time scale: 0.6924, model time: 57.9
+Generation 3, Scale: 0.6924, Loss: 0.778674, Time: 8.99s
+generations  4 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 4, Scale: 0.1000, Loss: 0.771839, Time: 9.49s
+Running with time scale: 0.1000, model time: 51.4
+Generation 4, Scale: 0.1000, Loss: 0.771839, Time: 9.36s
+Running with time scale: 2.3341, model time: 75.9
+Generation 4, Scale: 2.3341, Loss: 0.790365, Time: 10.37s
+generations  5 / 16
+Running with time scale: 0.1371, model time: 51.8
+Generation 5, Scale: 0.1371, Loss: 0.772266, Time: 9.41s
+Running with time scale: 0.1000, model time: 51.4
+Generation 5, Scale: 0.1000, Loss: 0.771839, Time: 9.36s
+Running with time scale: 0.1000, model time: 51.4
+Generation 5, Scale: 0.1000, Loss: 0.771839, Time: 9.10s
+generations  6 / 16
+Running with time scale: 0.1913, model time: 52.4
+Generation 6, Scale: 0.1913, Loss: 0.772824, Time: 9.41s
+Running with time scale: 0.1000, model time: 51.4
+Generation 6, Scale: 0.1000, Loss: 0.771839, Time: 9.24s
+Running with time scale: 1.2766, model time: 64.3
+Generation 6, Scale: 1.2766, Loss: 0.784128, Time: 9.88s
+generations  7 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 7, Scale: 0.1000, Loss: 0.771839, Time: 9.36s
+Running with time scale: 0.8835, model time: 60.0
+Generation 7, Scale: 0.8835, Loss: 0.780152, Time: 9.69s
+Running with time scale: 0.1000, model time: 51.4
+Generation 7, Scale: 0.1000, Loss: 0.771839, Time: 9.21s
+generations  8 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 8, Scale: 0.1000, Loss: 0.771839, Time: 9.34s
+Running with time scale: 0.1000, model time: 51.4
+Generation 8, Scale: 0.1000, Loss: 0.771839, Time: 9.31s
+Running with time scale: 0.1000, model time: 51.4
+Generation 8, Scale: 0.1000, Loss: 0.771839, Time: 9.09s
+generations  9 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 9, Scale: 0.1000, Loss: 0.771839, Time: 9.45s
+Running with time scale: 0.1000, model time: 51.4
+Generation 9, Scale: 0.1000, Loss: 0.771839, Time: 9.17s
+Running with time scale: 1.3679, model time: 65.3
+Generation 9, Scale: 1.3679, Loss: 0.784747, Time: 9.89s
+generations  10 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 10, Scale: 0.1000, Loss: 0.771839, Time: 9.45s
+Running with time scale: 0.1000, model time: 51.4
+Generation 10, Scale: 0.1000, Loss: 0.771839, Time: 9.33s
+Running with time scale: 0.8909, model time: 60.1
+Generation 10, Scale: 0.8909, Loss: 0.780435, Time: 9.26s
+generations  11 / 16
+Running with time scale: 1.0370, model time: 61.7
+Generation 11, Scale: 1.0370, Loss: 0.781654, Time: 9.94s
+Running with time scale: 1.5180, model time: 67.0
+Generation 11, Scale: 1.5180, Loss: 0.786068, Time: 10.07s
+Running with time scale: 7.2507, model time: 130.0
+Generation 11, Scale: 7.2507, Loss: 0.793484, Time: 11.93s
+generations  12 / 16
+Running with time scale: 0.6110, model time: 57.0
+Generation 12, Scale: 0.6110, Loss: 0.777652, Time: 9.67s
+Running with time scale: 0.1404, model time: 51.8
+Generation 12, Scale: 0.1404, Loss: 0.772271, Time: 9.31s
+Running with time scale: 0.1000, model time: 51.4
+Generation 12, Scale: 0.1000, Loss: 0.771839, Time: 8.98s
+generations  13 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 13, Scale: 0.1000, Loss: 0.771839, Time: 9.49s
+Running with time scale: 0.1000, model time: 51.4
+Generation 13, Scale: 0.1000, Loss: 0.771839, Time: 9.19s
+Running with time scale: 5.1985, model time: 107.4
+Generation 13, Scale: 5.1985, Loss: 0.795332, Time: 10.96s
+generations  14 / 16
+Running with time scale: 0.1000, model time: 51.4
+Generation 14, Scale: 0.1000, Loss: 0.771839, Time: 9.40s
+Running with time scale: 0.1000, model time: 51.4
+Generation 14, Scale: 0.1000, Loss: 0.771839, Time: 9.05s
+Running with time scale: 9.3319, model time: 152.9
+Generation 14, Scale: 9.3319, Loss: 0.788981, Time: 12.29s
+generations  15 / 16
+Running with time scale: 1.3438, model time: 65.0
+Generation 15, Scale: 1.3438, Loss: 0.784268, Time: 10.07s
+Running with time scale: 0.1000, model time: 51.4
+Generation 15, Scale: 0.1000, Loss: 0.771839, Time: 9.41s
+Running with time scale: 5.6640, model time: 112.6
+Generation 15, Scale: 5.6640, Loss: 0.795118, Time: 11.25s
+Time scale optimization completed. Best loss: 0.771839
+Best time scale: 0.100000
+Running with time scale: 0.1000, model time: 51.4
+
+Time scale fitting completed. Results saved to /scratch/bcsl/jyin15/Tumor/BioPhysModel/time_scale_experiment/Patient-042_weeks_49_60/scale
+Optimized time scale: 0.1000
+
+--- Phase 3: Testing prediction on week 60 ---
+Found data directory: /scratch/bcsl/jyin15/Tumor/BioPhysModel/parcelled_and_masks/Patient-042/week-060
+Predicting tumor at time 60 (reference: 49)
+Physical time difference: 11
+Time scale: 0.1000
+Model time: 51.4
+Number of simulation timesteps: 290
+Test prediction Dice coefficient: 0.2284
+
+Test prediction completed. Results saved to /scratch/bcsl/jyin15/Tumor/BioPhysModel/time_scale_experiment/Patient-042_weeks_49_60/test
+
+Pipeline completed successfully!
+Summary report generated: /scratch/bcsl/jyin15/Tumor/BioPhysModel/time_scale_experiment/Patient-042_weeks_49_60/reports/Patient-042_summary_report.html

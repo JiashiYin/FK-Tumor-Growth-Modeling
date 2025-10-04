@@ -1,0 +1,38 @@
+Training:
+
+python TimeSeriesFitting.py \
+    --data_dir /projects/bcsl/jyin15/Tumor/BioPhysModel-time_series/playground/data \
+    --patient_id Patient-091 \
+    --output_dir /projects/bcsl/jyin15/Tumor/processed/Patient-091_results \
+    --time_points 0 1 14 26 \  # Only use weeks 0, 1, 14, 26 for training
+    --loss_type soft_dice \
+    --generations 12 \
+    --workers 9
+
+Testing:
+
+python forward.py \
+    --data_dir /projects/bcsl/jyin15/Tumor/BioPhysModel-time_series/playground/data \
+    --patient_id Patient-091 \
+    --output_dir /projects/bcsl/jyin15/Tumor/processed/Patient-091_test_results \
+    --time_points 0 1 14 26 36 43 \  # Include both training and testing weeks
+    --param_file /projects/bcsl/jyin15/Tumor/processed/Patient-091_results/gen_12_results.npy
+
+
+
+
+python train_test_eval.py --data_dir /projects/bcsl/jyin15/Tumor/BioPhysModel/parcelled_and_masks --patient_id Patient-078 --output_dir /projects/bcsl/jyin15/Tumor/BioPhysModel-time_series/playground/results --train_weeks 0 1 5 19 29 37 39 41 45 56 62 --test_weeks 76 88 106 113 116 119  --generations 25 --workers 9 --loss_type combined --weighting_strategy inverse
+
+
+python eval.py --data_dir /projects/bcsl/jyin15/Tumor/BioPhysModel-time_series/playground/results/forward --output_dir /projects/bcsl/jyin15/Tumor/BioPhysModel-time_series/playground/results/evaluation --train_weeks 0 1 14 --test_weeks 26 36 43 --wm_data /projects/bcsl/jyin15/Tumor/BioPhysModel-time_series/playground/data/Patient-091/week-000/T1_pve_2.nii.gz
+
+
+
+
+
+
+
+projects 
+
+
+python train_test_eval.py --data_dir /projects/bcsl/jyin15/Tumor/BioPhysModel/parcelled_and_masks --patient_id Patient-078 --output_dir /projects/bcsl/jyin15/Tumor/BioPhysModel-time_series/playground/results --train_weeks 0 1 5 19 --test_weeks 29 37 39 41  --generations 25 --workers 9 --loss_type dice --weighting_strategy inverse

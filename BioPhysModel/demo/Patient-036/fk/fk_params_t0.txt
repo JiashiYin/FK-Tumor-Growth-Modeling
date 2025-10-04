@@ -1,0 +1,8 @@
+Dw: 1.4474168694358975
+rho: 0.016610016306115943
+model_time: 100.0
+NxT1_pct: 0.5864975622266593
+NyT1_pct: 1.0
+NzT1_pct: 0.08964690554521762
+thresholdT1c: 0.85
+thresholdFlair: 0.5

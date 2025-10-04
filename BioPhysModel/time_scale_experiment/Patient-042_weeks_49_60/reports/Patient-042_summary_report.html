@@ -1,0 +1,165 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Tumor Growth Prediction Report - Patient-042</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1, h2, h3 { color: #2c3e50; }
+                table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+                th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                th { background-color: #f2f2f2; }
+                tr:nth-child(even) { background-color: #f9f9f9; }
+                .metric { font-weight: bold; color: #2980b9; }
+                .phase { margin-top: 30px; border-left: 5px solid #3498db; padding-left: 15px; }
+                img { max-width: 100%; height: auto; margin: 10px 0; }
+                .container { display: flex; flex-wrap: wrap; }
+                .image-container { margin: 10px; }
+            </style>
+        </head>
+        <body>
+            <h1>Tumor Growth Prediction Report</h1>
+            <h2>Patient: Patient-042</h2>
+            <p>Report generated on 2025-04-10 10:01:19</p>
+        
+            <div class="phase">
+                <h2>Summary</h2>
+                <table>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Value</th>
+                    </tr>
+        
+                    <tr>
+                        <td>test_dice</td>
+                        <td class="metric">0.22836332476435303</td>
+                    </tr>
+            
+                    <tr>
+                        <td>test_tumor_volume</td>
+                        <td class="metric">43451</td>
+                    </tr>
+            
+                    <tr>
+                        <td>fk_dice</td>
+                        <td class="metric">0.6056002383080131</td>
+                    </tr>
+            
+                    <tr>
+                        <td>scale_dice</td>
+                        <td class="metric">0.22816149092539526</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="phase">
+                <h2>FK Model Parameters</h2>
+                <table>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Value</th>
+                    </tr>
+        
+                    <tr>
+                        <td>Dw</td>
+                        <td class="metric">0.9419130334561572</td>
+                    </tr>
+            
+                    <tr>
+                        <td>rho</td>
+                        <td class="metric">0.006844634895402674</td>
+                    </tr>
+            
+                    <tr>
+                        <td>model_time</td>
+                        <td class="metric">50.259159921275256</td>
+                    </tr>
+            
+                    <tr>
+                        <td>NxT1_pct</td>
+                        <td class="metric">0.9066788798355574</td>
+                    </tr>
+            
+                    <tr>
+                        <td>NyT1_pct</td>
+                        <td class="metric">0.5279972229358294</td>
+                    </tr>
+            
+                    <tr>
+                        <td>NzT1_pct</td>
+                        <td class="metric">0.31338982742310295</td>
+                    </tr>
+            
+                    <tr>
+                        <td>thresholdT1c</td>
+                        <td class="metric">0.85</td>
+                    </tr>
+            
+                    <tr>
+                        <td>thresholdFlair</td>
+                        <td class="metric">0.4924790386248738</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="phase">
+                <h2>Time Scale Parameters</h2>
+                <table>
+                    <tr>
+                        <th>Parameter</th>
+                        <th>Value</th>
+                    </tr>
+        
+                    <tr>
+                        <td>time_scale</td>
+                        <td class="metric">0.1</td>
+                    </tr>
+            
+                </table>
+            </div>
+        
+            <div class="phase">
+                <h2>Visualizations</h2>
+                <h3>Training Progression</h3>
+                <div class="container">
+        
+                    <div class="image-container">
+                        <img src="../visualizations/fk_loss_progression.png" alt="Training Plot">
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="../visualizations/scale_loss_progression.png" alt="Training Plot">
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="../visualizations/scale_parameter_evolution.png" alt="Training Plot">
+                    </div>
+            
+                </div>
+                <h3>Tumor Comparison</h3>
+                <div class="container">
+        
+                    <div class="image-container">
+                        <img src="../visualizations/3d/fk_3d_comparison_t49.png" alt="Tumor Visualization">
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="../visualizations/3d/scale_3d_comparison_t60.png" alt="Tumor Visualization">
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="../visualizations/3d/test_3d_comparison_t60.png" alt="Tumor Visualization">
+                    </div>
+            
+                    <div class="image-container">
+                        <img src="../visualizations/Patient-042_timepoint_comparison.png" alt="Tumor Visualization">
+                    </div>
+            
+                </div>
+            </div>
+        
+        </body>
+        </html>
+        

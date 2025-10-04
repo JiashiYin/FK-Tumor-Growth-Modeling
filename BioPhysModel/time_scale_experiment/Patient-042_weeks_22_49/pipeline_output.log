@@ -1,0 +1,20 @@
+Starting tumor growth prediction pipeline for Patient-042
+
+--- Phase 1: Fitting FK parameters using week 22 ---
+Loading data for week 22...
+Found data directory: /scratch/bcsl/jyin15/Tumor/BioPhysModel/parcelled_and_masks/Patient-042/week-022
+Warning: No tumor regions found with standard labels. Using binary approach.
+Running FK parameter optimization with 15 generations...
+Starting CMA-ES optimization with 15 generations...
+generations  1 / 16
+Running forward model with parameters: Dw=0.9437, rho=0.000100, time=50.1
+Running forward model with parameters: Dw=0.9486, rho=0.082016, time=50.1
+Running forward model with parameters: Dw=1.1461, rho=0.119472, time=50.0
+Running forward model with parameters: Dw=1.0460, rho=0.000100, time=50.0
+Running forward model with parameters: Dw=1.1000, rho=0.000100, time=49.9
+Running forward model with parameters: Dw=1.0207, rho=0.186890, time=50.1
+Running forward model with parameters: Dw=0.9422, rho=0.158490, time=49.9
+Running forward model with parameters: Dw=0.9704, rho=0.124703, time=50.1
+Running forward model with parameters: Dw=1.0612, rho=0.168138, time=50.1
+Running forward model with parameters: Dw=1.0037, rho=0.014395, time=49.9
+Error during optimization: NxT1_pct must be between 0 and 1

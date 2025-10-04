@@ -1,0 +1,2 @@
+/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py:1205: DeprecationWarning: Conversion of an array with ndim > 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  scale_param_history.append(float(best_params[0]))

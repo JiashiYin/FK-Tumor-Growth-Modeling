@@ -1,0 +1,6 @@
+Loaded 3 time points: [0, 1, 5]
+Time weights: [0.0, 0.0, 1.0]
+Using loss type: soft_dice
+Starting time-series fitting optimization...
+Starting CMA-ES optimization...
+generations  1 / 3

@@ -1,0 +1,79 @@
+/u/jyin15/miniconda3/envs/my_env/lib/python3.12/site-packages/scipy/ndimage/_measurements.py:1541: RuntimeWarning: invalid value encountered in scalar divide
+  results = [sum(input * grids[dir].astype(float), labels, index) / normalizer
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 292, in getLoss
+    tumor = self.forward(x[:-2], resolution_factor)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 270, in forward
+    result = solver.solve()
+             ^^^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthToolkit/FK/FK.py", line 150, in solve
+    assert 0 <= NxT1_pct <= 1, "NxT1_pct must be between 0 and 1"
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: NxT1_pct must be between 0 and 1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 341, in run
+    trace = cmaes.cmaes(
+            ^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/cmaes.py", line 89, in cmaes
+    list = pool.starmap(fun, [(x, gen) for x in xs])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 774, in get
+    raise self._value
+AssertionError: NxT1_pct must be between 0 and 1
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 292, in getLoss
+    tumor = self.forward(x[:-2], resolution_factor)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 270, in forward
+    result = solver.solve()
+             ^^^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthToolkit/FK/FK.py", line 150, in solve
+    assert 0 <= NxT1_pct <= 1, "NxT1_pct must be between 0 and 1"
+           ^^^^^^^^^^^^^^^^^^
+AssertionError: NxT1_pct must be between 0 and 1
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 1337, in <module>
+    main()
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 1050, in main
+    fk_tumor, fk_results = fk_solver.run(args.fk_generations)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/TumorGrowthPipeline.py", line 341, in run
+    trace = cmaes.cmaes(
+            ^^^^^^^^^^^^
+  File "/scratch/bcsl/jyin15/Tumor/BioPhysModel/cmaes.py", line 89, in cmaes
+    list = pool.starmap(fun, [(x, gen) for x in xs])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 375, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/u/jyin15/miniconda3/envs/my_env/lib/python3.12/multiprocessing/pool.py", line 774, in get
+    raise self._value
+AssertionError: NxT1_pct must be between 0 and 1
