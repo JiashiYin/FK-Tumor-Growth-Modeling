@@ -112,7 +112,7 @@ python TimeSeriesFitting.py \
 - `--weighting_strategy`: Time point weighting (`equal`, `inverse`, `exponential`, `log`)
 - `--target_time`: Target time for inverse distance weighting (default: max time point)
 
-**[Insert Figure: Training convergence plot showing loss over generations]**
+
 
 ### Forward Prediction
 
@@ -135,7 +135,6 @@ python forward.py \
 
 **Output:** Predicted tumor masks as NIfTI files and visualization plots.
 
-**[Insert Figure: Forward prediction showing actual vs predicted tumor masks]**
 
 ### Train-Test Evaluation
 
@@ -166,7 +165,6 @@ python train_test_eval.py \
 - Volume error (percentage)
 - Train/test performance ratio
 
-**[Insert Figure: Train-test performance comparison plot]**
 
 ### Adjacent Weeks Experiment
 
@@ -188,7 +186,6 @@ python adjacent_weeks_experiment.py \
 - Creates summary visualizations across experiments
 - Analyzes relationship between extrapolation distance and accuracy
 
-**[Insert Figure: Extrapolation distance vs test loss scatter plot]**
 
 ---
 
@@ -273,7 +270,6 @@ Where:
 - **Boundary Conditions**: Zero-flux (Neumann)
 - **Initialization**: Gaussian seed at estimated origin
 
-**[Insert Figure: Schematic of FK equation solver with tissue maps]**
 
 ---
 
@@ -321,7 +317,6 @@ $$
 L_{\text{combined}} = 0.4 L_{\text{dice}} + 0.3 L_{\text{soft}} + 0.2 L_{\text{boundary}} + 0.1 L_{\text{Hausdorff}}
 $$
 
-**[Insert Figure: Visual comparison of different loss functions on example data]**
 
 ---
 
@@ -377,25 +372,21 @@ The framework generates comprehensive visualizations automatically in output_dir
 
 ### 1. Optimization Convergence
 
-**[Insert Figure: convergence.png]**
 
 Tracks best and mean fitness across generations, showing optimization progress.
 
 ### 2. Time Point Loss Analysis
 
-**[Insert Figure: timepoint_losses.png]**
 
 Individual loss values at each observed time point, revealing which observations are well-fit.
 
 ### 3. Parameter Evolution
 
-**[Insert Figure: parameter_evolution.png]**
 
 Trajectories of mean parameter values during optimization.
 
 ### 4. Spatial Error Maps
 
-**[Insert Figure: spatial_error_map.png]**
 
 Color-coded visualization:
 - **Green**: True positive (correctly predicted tumor)
@@ -404,13 +395,11 @@ Color-coded visualization:
 
 ### 5. Volume Trajectory
 
-**[Insert Figure: volume_trajectory.png]**
 
 Comparison of predicted vs actual tumor volumes over time.
 
 ### 6. Train-Test Performance
 
-**[Insert Figure: train_test_performance.png]**
 
 Side-by-side comparison of model performance on training and testing weeks.
 
