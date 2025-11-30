@@ -215,8 +215,7 @@ data_dir/
 - **seg_mask.nii.gz**: Binary or probabilistic tumor mask (0-1 range)
 - **T1_pve_1.nii.gz**: Gray matter tissue probability (0-1 range)
 - **T1_pve_2.nii.gz**: White matter tissue probability (0-1 range)
-- All files must be co-registered and in the same image space
-- Recommended resolution: 1mm³ isotropic
+- All files must be registered and in the same image space, e.g. ATLAS
 
 ### Preprocessing Requirements
 
@@ -406,18 +405,6 @@ Side-by-side comparison of model performance on training and testing weeks.
 ---
 
 ## Advanced Configuration
-
-### Multi-Resolution Strategy
-
-Progressive refinement for computational efficiency:
-
-```python
-settings["resolution_factor"] = {
-    0.0: 0.3,    # Generations 0-40%: Low resolution
-    0.4: 0.5,    # Generations 40-70%: Medium resolution
-    0.7: 0.7     # Generations 70-100%: High resolution
-}
-```
 
 ### Early Stopping
 
