@@ -82,47 +82,6 @@ The framework supports multiple loss functions (Dice, Soft Dice, Hausdorff, boun
 
 ---
 
-## Quick Start
-
-### Minimal Example
-
-```python
-from TimeSeriesFittingSolver import TimeSeriesFittingSolver
-import nibabel as nib
-
-# Load your data
-wm = nib.load('path/to/white_matter.nii.gz').get_fdata()
-gm = nib.load('path/to/gray_matter.nii.gz').get_fdata()
-tumor_week0 = nib.load('path/to/tumor_week0.nii.gz').get_fdata()
-tumor_week5 = nib.load('path/to/tumor_week5.nii.gz').get_fdata()
-
-# Configure settings
-settings = {
-    "rho0": 0.06,
-    "dw0": 1.0,
-    "sigma0": 0.3,
-    "generations": 25,
-    "workers": 9,
-    "loss_type": "soft_dice",
-    "resolution_factor": {0: 0.3, 0.4: 0.5, 0.7: 0.7}
-}
-
-# Initialize solver
-time_points = [0, 5]  # weeks
-tumor_data = [tumor_week0, tumor_week5]
-solver = TimeSeriesFittingSolver(settings, wm, gm, tumor_data, time_points)
-
-# Run optimization
-predicted_series, results = solver.run()
-
-# Results contain optimized parameters and loss values
-print(f"Optimal Dw: {results['opt_params'][3]:.6f}")
-print(f"Optimal rho: {results['opt_params'][4]:.6f}")
-print(f"Minimum loss: {results['minLoss']:.4f}")
-```
-
----
-
 ## Usage
 
 ### Training Mode
